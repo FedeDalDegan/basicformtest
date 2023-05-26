@@ -1,0 +1,106 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset{
+    margin: 30px 20% 30px 35%;
+    background-image: linear-gradient(to right, #28292a, #202324, #191e1d, #141816, #0e110b);
+    color: rgb(236, 233, 233);
+    border: 3px solid rgb(39, 37, 37);
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+    line-height: 60px;
+    width: 25%;
+    padding: 30px 40px 30px 40px;
+}
+
+legend{
+    color: #e1e4e2;
+    font-size: 25px;
+    text-align: center;
+    background-color: #101111;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 140px;
+}
+
+label{
+    display: block;
+    font-size: 25px;
+}
+
+label:hover{
+    color: red;
+    font-size: 27px;
+}
+
+input{
+    color: darkred;
+    border: 2px solid rgb(2, 27, 3);
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+fieldset button{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(247, 242, 243);
+    color: rgb(15, 2, 2);
+    height: 35px;
+    width: 150px;
+    border: 2px solid grey;
+    margin-left: 33%;
+    transition: .2s;
+}
+
+button:hover{
+    background-color: grey;
+    transition: .4s;
+}
+
+.mensaje{
+    height: 150px;
+}
+
+.navbar{
+    color: black;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+svg{
+    width: 40px;
+    height: 40px;
+
+}
+
+::placeholder{
+    color: rgb(255, 0, 0);
+}
+
